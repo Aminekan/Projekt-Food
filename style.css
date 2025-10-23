@@ -1,10 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
 }
-nav{
+
+body {
+    background: #f5f5f5;
+}
+
+nav {
     background: #1b1b1b;
     width: 100%;
     padding: 10px 0;
@@ -12,7 +17,7 @@ nav{
     z-index: 1;
 }
 
-nav .menu{
+nav .menu {
     max-width: 1500px;
     height: 50px;
     margin: auto;
@@ -22,14 +27,14 @@ nav .menu{
     padding: 0 20px;
 }
 
-.menu .logo a{
+.menu .logo a {
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     font-weight: 600;
 }
 
-.menu ul{
+.menu ul {
     display: inline-flex;
 }
 
@@ -37,20 +42,23 @@ nav .menu{
     list-style: none;
     margin-left: 7px;
 }
-.menu ul li a{
+
+.menu ul li a {
     text-decoration: none;
     color: #fff;
-    font-size:22px;
+    font-size: 25px;
     font-weight: 500;
     padding: 10px 25px;
     border-radius: 5px;
     transition: all 0.3s ease;
 }
-.menu ul li a:hover{
- background-color: #fff;
- color:#000;
+
+.menu ul li a:hover {
+    background-color: #fff;
+    color: #000;
 }
-.img{
+
+.img {
     background: url(foodimg.jpg) no-repeat;
     height: 100vh;
     width: 100%;
@@ -58,35 +66,41 @@ nav .menu{
     background-size: cover;
     position: relative;
 }
-.img::before{
+
+.img::before {
     content: ' ';
     position: absolute;
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.1);
 }
-.center{
+
+.center {
     position: absolute;
     top: 52%;
-    left:50%;
-    transform: translate(-50% , -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 0 20px;
     text-align: center;
 }
-.center .title{
-    color:#fff;
-    font-size: 55px;
+
+.center .title {
+    color: #fff;
+    font-size: 50px;
     font-weight: 600;
 }
-.center .sub_title{
-    color:#fff;
-    font-size: 52px;
+
+.center .sub_title {
+    color: #fff;
+    font-size: 50px;
     font-weight: 600;
 }
-.center .btns{
+
+.center .btns {
     margin-top: 20px;
 }
-.center .btns button{
+
+.center .btns button {
     height: 55px;
     width: 170px;
     border-radius: 5px;
@@ -101,12 +115,184 @@ nav .menu{
     transition: all 0.3 ease;
 }
 
-.center .btns button:first-child{
-color: #fff;
-background:none;
+.center .btns button:first-child {
+    color: #fff;
+    background: none;
 }
-.center .btns button:first-child:hover{
+
+.center .btns button:first-child:hover {
     background: #fff;
     color: #000;
 }
 
+.section2 {
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin: 90px 100px;
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1600px;
+
+}
+
+.section2 .image {
+    margin-left: 200px;
+    border: none;
+}
+
+.section2 .Speisekarte {
+    margin-left: 90px;
+}
+
+.section2 .Speisekarte h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section2 .Speisekarte p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.section3 {
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    max-width: 1600px;
+
+}
+
+.section3 .image {
+    margin-right: 100px;
+    border: none;
+}
+
+.section3 .welcome {
+    margin-right: 60px;
+}
+
+.section3 .welcome h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section3 .welcome p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.section4 {
+    height: auto;
+    background-color: #fff;
+    max-width: 1600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 100px;
+    position: relative;
+}
+
+.section4 .öffnungszeiten {
+    margin-right: 150px;
+    background: #fafafa;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.section4 .öffnungszeiten h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section4 .öffnungszeiten p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.section4 .bild {
+    margin-left: 100px;
+    border: none;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+.about {
+    background-color: #fafafa;
+    padding: 60px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about-image {
+    width: 45%;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    background-size: cover;
+}
+
+.about-text {
+    width: 45%;
+    min-width: 300px;
+}
+
+.about-text h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    color: #b8860b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-text p {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: px;
+}
