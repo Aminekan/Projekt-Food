@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tischreservierung</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <!-- logo-->
+            <div class="logo">
+                <a href="#">FOOD</a>
+            </div>
+            <!-- nav -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="Kontakt.html">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+    </nav>
+    <pre>
+
+    </pre>
+<section class="main-container">
+
+    <div class="vedio-background">
+        <video autoplay muted loop>
+            <source src="restaurants.mp4" type="video/mp4">
+            Dein Browser unterstützt dieses Videoformat nicht.
+          </video>
+    </div>
+
+<div class="containers">
+    <h2>Tisch reservieren</h2>
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" class="name" placeholder="Dein Name">
+
+   <label for="persons">Anzahl Personen:</label>
+   <select class="persons" id="persons">
+   <option>1</option>
+   <option>2</option>
+   <option>3</option>
+   <option>4</option>
+   <option>5</option>
+</select>
+   <label for="datum">Datum:</label>
+   <input type="date" id="date">
+
+   <label for="uhrzeit">UhrZeit:</label>
+   <input type="time" id="time">
+
+   <button id="reserveBtn">Reservieren</button>
+   
+
+   <p class="message" id="message"></p>
+   
+</div>
+</section>
+<script src="ja.js"></script>
+</body>
+</html>

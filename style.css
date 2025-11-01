@@ -274,6 +274,7 @@ footer a:hover {
     border-radius: 16px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     background-size: cover;
+    margin-top: 20px;
 }
 
 .about-text {
@@ -296,3 +297,164 @@ footer a:hover {
     color: #444;
     margin-bottom: px;
 }
+
+.hero{
+    background: url('imageservice.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.hero p{
+    font-size: 1.5em;
+}
+.hero button {
+    margin-top: 10px;
+    padding: 15px 25px;
+    background-color: #b8860b;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.hero button:hover {
+    background-color: #f0c250;
+  }
+  .main-container{
+    height: 100vh;
+    width: 100%;
+
+  }
+.containers{
+    max-width: 800px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border-radius: 10px;
+    padding: 70px 90px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.9);
+}
+  h2 {
+    text-align: center;
+    color:  #f0c250;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  label {
+    display: flex;
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 22px;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  button:hover {
+    background-color: #cf711f;
+  }
+.vedio-background{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+}
+.vedio-background video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.message{
+    text-align: center;
+    font-weight: bold;
+    color: green;
+
+}
+.main-conatiner{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+background: #fff;
+border-radius: 15px;
+box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+width: 80%;
+max-width: 900px;
+overflow: hidden;
+}
+.infoconatct{
+    background-color: #b8860b;
+    color: white;
+    padding: 40px;
+
+}
+.infoconatct h1{
+   margin: 0 0 10px;
+   font-size: 32px;
+
+}
+.infoconatct p{
+margin: 8px 0;
+font-size: 20px;
+}
+.komtaktformular{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.komtaktformular label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.komtaktformular input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.komtaktformular input:focus{
+  border-color: #d63a2b;
+  outline: none;
+  box-shadow: 0 0 5px rgba(214, 58, 43, 0.5);
+}
+
