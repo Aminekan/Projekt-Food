@@ -15,3 +15,7 @@ function reservieren(){
       msg.style.color = "red";
     }
   }
+
+
+
+

@@ -399,11 +399,18 @@ footer a:hover {
     width: 100%;
     object-fit: cover;
 }
-.message{
+#mesage {
+    display: block;
     text-align: center;
     font-weight: bold;
-    color: green;
-
+    font-size: 14px;
+    color: red; /* Standardfarbe für Fehler */
+    margin-top: 10px;
+    background: transparent;
+    position: relative; /* NICHT absolute */
+}
+#mesage.success {
+    color: green; /* Für erfolgreiche Meldungen */
 }
 .main-conatiner{
 display: flex;
@@ -420,6 +427,8 @@ box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 width: 80%;
 max-width: 900px;
 overflow: hidden;
+margin-top: 50px;
+
 }
 .infoconatct{
     background-color: #b8860b;
@@ -457,4 +466,8 @@ font-size: 20px;
   outline: none;
   box-shadow: 0 0 5px rgba(214, 58, 43, 0.5);
 }
-
+.hh{
+    color: #b8860b;
+    font-size: 20px;
+    text-align: center;
+}
